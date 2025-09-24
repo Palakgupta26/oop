@@ -38,6 +38,7 @@ public class Abstract {
 
         Student.school = "abc";
         Student s1 = new Student();
-        System.out.println(s1.school);
+        // System.out.println(s1.school);
+        System.out.println(Student.school);
     }
 }
